@@ -1,12 +1,13 @@
 import './App.css'
+import { Footer, Header } from './components'
 
 function App() {
 
   return (
     <>
-      <h1>
-        Blog app
-      </h1>
+      <Header/>
+      Hello!
+      <Footer/>
     </>
   )
 }
