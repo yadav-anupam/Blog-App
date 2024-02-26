@@ -12,6 +12,7 @@ import PostForm from "./Post-form/Post-form";
 import Postcard from "./Postcard"
 import AuthLayout from "./Authlayout";
 import Select from "./Select";
+
 export{
     Header,
     Footer,
