@@ -1,9 +1,15 @@
-import AddPost from "./pages/AddPost";
-import Signup from './pages/Signup'
-import EditPost from "./pages/EditPost";
-import Post from "./pages/Post";
-import AllPosts from "./pages/Allpost";
-import Login from './pages/Login';
+import AddPost from "../pages/AddPost";
+import Signup from '../pages/Signup'
+import EditPost from "../pages/EditPost";
+import Post from "../pages/Post";
+import AllPosts from "../pages/Allpost";
+import Login from '../pages/Login';
+import Home from '../pages/Home';
+import App from '../App';
+import {AuthLayout} from '../components/index';
+
+
+import { createBrowserRouter } from "react-router-dom";
 
 const router = createBrowserRouter([
     {
@@ -64,3 +70,4 @@ const router = createBrowserRouter([
       ],
   },
   ])
+export default router;
